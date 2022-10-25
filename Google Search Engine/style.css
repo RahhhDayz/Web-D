@@ -1,0 +1,34 @@
+            body
+            {
+                background-color: white;
+            }
+           form{
+            text-align: center;
+            }
+           #tb{
+            border-radius: 30px;
+            width: 500px;
+            height: 30px;
+
+           }
+            #img {
+                text-align: center;
+                vertical-align: middle;
+                
+                top:0;
+                left:0;
+                right:0;
+                bottom: 10px;
+                margin:100px;
+             }
+             .topnav a:hover {
+                color: black;
+                background-color: #ddd;
+             }
+
+            .topnav a{
+                padding: 5px;
+                
+                text-align: right;
+
+                 }       
