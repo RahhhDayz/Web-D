@@ -2,12 +2,48 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            body
+            {
+                background-color: white;
+            }
+           form{
+            text-align: center;
+            vertical-align: middle;
+            
+           }
+           #tb{
+            border-radius: 30px;
+           }
+            #img {
+                text-align: center;
+                vertical-align: middle;
+                
+                top:0;
+                left:0;
+                right:0;
+                bottom:0;
+                margin:auto;
+                width: 60%;
+                
+
+            }
+            
+            
+            
+            .link{
+                text-align: right;
+            }
+
+        </style>
     </head>
     <body>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
+            <input type="text" name="q" id = "tb">
             <input type="submit" value="Google Search">
-            <a href = "pic.html">Images</a>
         </form>
+            <a class="link" href = "pic.html">Images</a>
+            <div id="img"><img src = "g.png" alt "Google" id="img">
+            </div>
     </body>
 </html>
