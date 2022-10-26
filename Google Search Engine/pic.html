@@ -1,16 +1,24 @@
 <!doctype HTML>
 <html>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
     <head>
         <title>ImageSearch</title>
         <link rel = "stylesheet" href = "style.css"
     </head>
     <body>
+        <span class = "topnav">
+            <a href = "index.html">Google</a>
+                <a href = "">Advance Search</a>
+        </span>
         <div id="img"><img src = "gi.png" alt "Google">
             <br/>
             <figcaption>
         <form method="get" action="http://images.google.com/images">
             <input type = "text" name="q" id = "tb">
-            <input type = "submit" value = "Google Search">
+        </figcaption>
+        <figcaption>
+            <input type = "submit" value = "Google Search" class = "sb">
         </form>
         </figcaption>
     </body>

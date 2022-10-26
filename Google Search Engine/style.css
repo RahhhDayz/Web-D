@@ -6,20 +6,28 @@
             text-align: center;
             }
            #tb{
-            border-radius: 30px;
+            transition: box-shadow .3s;
             width: 500px;
-            height: 30px;
+            height: 40px;
+            margin: 15px;
+            border-radius:30px;
+            border: 1px solid #ccc;
+            background: #fff;
+            
 
            }
+           #tb:hover {
+            box-shadow: 0 0 11px rgba(33,33,33,.2); }
             #img {
                 text-align: center;
                 vertical-align: middle;
-                
+                margin:3px;
+
                 top:0;
                 left:0;
                 right:0;
-                bottom: 10px;
-                margin:100px;
+                bottom: 0px;
+                margin:150px;
              }
              .topnav a:hover {
                 color: black;
@@ -28,7 +36,14 @@
 
             .topnav a{
                 padding: 5px;
-                
-                text-align: right;
-
-                 }       
+            }     
+            .sb{
+                background-color: #f8f9fa;
+                border: 1px solid white;
+                border-radius:5px;
+                padding:10px;
+                width: 120px;
+                margin: 20px;
+                height:40px;
+                padding: 5px;
+            }
