@@ -1,0 +1,46 @@
+<!doctype HTML>
+<html>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+    <head>
+        <title>Advance Search</title>
+        <link rel = "stylesheet" href = "advance.css"
+    </head>
+    <body>
+        <div id = "img"><img src = "g.png" alt = "Google" height = "35px" width = "100px"></div>
+        <p class = "top"><b>Advance Search</b></p>
+        <p class = "para">Find Pages with...</p>
+        <form action = "https://www.google.com/search" name = "f">
+            <div class = "field">
+                <label for = "feild1">all these words: </label>
+                <input type = "text" class = "textinput" id = "field1" value = "" name = "as_q">
+            </div>
+            <br>
+            <div class = "field">
+                <label for = "feild2">this exact word or phrase: </label>
+                <input type = "text" class = "textinput" id = "field2" value = "" name = "as_epq">   
+            </div>
+            <br>
+            <div class = "field">
+                <label for = "feild3">any of this words: </label>
+                <input type = "text" class = "textinput" id = "field3" value = "" name = "as_oq">
+            </div>
+            <br>
+            <div class = "field">
+                <label for = "feild4">none of these words: </label>
+                <input type = "text" class = "textinput" id = "field4" value = "" name = "as_eq"
+            </div>
+            <br>
+            <br>
+            <div class = field>
+            <label for = "feild5">number ranging from:</label> 
+            <input type = "text" class = "textinput1" id = "field5" value="" name = "as_nlo">
+            <span class = "seperator">to</span>
+            <input type = "text" class = "textinput1" id = "field5" value = "" name = "as_nhi"
+            </div>
+            <figcaption>
+            <input type = "submit" value = "Advance search">
+            </figcaption>
+        </form>
+         
+    </body>
