@@ -4,6 +4,8 @@
             }
            form{
             text-align: center;
+             display: inline-block;
+
             }
            #tb{
             transition: box-shadow .3s;
@@ -34,8 +36,11 @@
                 background-color: #ddd;
              }
 
-            .topnav a{
+            .topnav a > div{
                 padding: 5px;
+                display: inline-block;
+                text-align: right;
+
             }     
             .sb{
                 background-color: #f8f9fa;
@@ -46,4 +51,8 @@
                 margin: 20px;
                 height:40px;
                 padding: 5px;
+
+            }
+            .sb:hover{
+                box-shadow: 0 0 11px rgba(33,33,33,.2);
             }
