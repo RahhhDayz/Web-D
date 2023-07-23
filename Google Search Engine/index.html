@@ -2,12 +2,26 @@
 <html lang="en">
     <head>
         <title>Search</title>
+       <link rel = "stylesheet" href = "style.css">
+       <meta name="viewport"
+        content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <div class = "topnav" style="text-align: right;">
             <a href = "pic.html">Images</a>
-        </form>
+                <a href = "advsearch.html">Advance Search</a>
+        </div>
+            <div id="img"><img src = "g.png" alt "Google">
+                <figcaption>
+                    <form action="https://www.google.com/search">
+                        <input type="text" name="q" id = "tb">
+                    </figcaption>
+                    
+                            <input type = "submit" value = "Google Search" class = "sb">
+                            
+                </form>
+                <form action = "https://www.google.com/doodles">
+                            <input type = "submit" value = "I'm Feeling Lucky" class = "sb"></form>
+                        </div>
     </body>
 </html>
